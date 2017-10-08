@@ -1,0 +1,8 @@
+
+Running tests with valgrind:
+
+	make check TESTS_ENVIRONMENT=valgrind
+
+or
+
+	make check TESTS_ENVIRONMENT='libtool --mode=execute valgrind --error-exitcode=1'

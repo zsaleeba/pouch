@@ -1,0 +1,5 @@
+memmem.lo: memmem.c /usr/include/stdc-predef.h ../picocoin-config.h
+
+/usr/include/stdc-predef.h:
+
+../picocoin-config.h:
